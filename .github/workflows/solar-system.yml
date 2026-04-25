@@ -13,7 +13,7 @@ env:
   MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
   
 jobs:
-        name: Unit Testing
+        name: Code Coverage
         runs-on: ubuntu-latest
         steps:
         - name: Checkout Repository
